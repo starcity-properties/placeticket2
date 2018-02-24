@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238B053BCCF05BD09858EAB2 /* Pods_PlaceticketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A129427D80CA1A8AE4F5CEE5 /* Pods_PlaceticketUITests.framework */; };
 		6A5436032041F20400922B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5436022041F20400922B53 /* AppDelegate.swift */; };
 		6A5436052041F20400922B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5436042041F20400922B53 /* ViewController.swift */; };
 		6A5436082041F20400922B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5436062041F20400922B53 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		6A54360D2041F20400922B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A54360B2041F20400922B53 /* LaunchScreen.storyboard */; };
 		6A5436182041F20500922B53 /* PlaceticketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5436172041F20500922B53 /* PlaceticketTests.swift */; };
 		6A5436232041F20500922B53 /* PlaceticketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5436222041F20500922B53 /* PlaceticketUITests.swift */; };
+		7FFF51F654B5B6B69426D71D /* Pods_Placeticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4495E33563130C42873DE1 /* Pods_Placeticket.framework */; };
+		9E855741CADDD564EA07C0A2 /* Pods_PlaceticketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CCE56CF0B898156EFB56AA /* Pods_PlaceticketTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2769682AB59E130B7DAB085E /* Pods-PlaceticketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaceticketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaceticketUITests/Pods-PlaceticketUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6A5435FF2041F20400922B53 /* Placeticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placeticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5436022041F20400922B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A5436042041F20400922B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		6A54361E2041F20500922B53 /* PlaceticketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaceticketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5436222041F20500922B53 /* PlaceticketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceticketUITests.swift; sourceTree = "<group>"; };
 		6A5436242041F20500922B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C06594DFB5713763C9DC7E3 /* Pods-Placeticket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Placeticket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Placeticket/Pods-Placeticket.release.xcconfig"; sourceTree = "<group>"; };
+		9014F09C35D0E3BBBB732760 /* Pods-PlaceticketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaceticketUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaceticketUITests/Pods-PlaceticketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A129427D80CA1A8AE4F5CEE5 /* Pods_PlaceticketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaceticketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CCE56CF0B898156EFB56AA /* Pods_PlaceticketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaceticketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4495E33563130C42873DE1 /* Pods_Placeticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Placeticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D96FA2366F2F5A4703FEBF /* Pods-PlaceticketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaceticketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaceticketTests/Pods-PlaceticketTests.release.xcconfig"; sourceTree = "<group>"; };
+		E40E3FD8C3E34FA11ACC3267 /* Pods-Placeticket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Placeticket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Placeticket/Pods-Placeticket.debug.xcconfig"; sourceTree = "<group>"; };
+		F713D8F66558ABB527E2D7C3 /* Pods-PlaceticketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaceticketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaceticketTests/Pods-PlaceticketTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFF51F654B5B6B69426D71D /* Pods_Placeticket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E855741CADDD564EA07C0A2 /* Pods_PlaceticketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238B053BCCF05BD09858EAB2 /* Pods_PlaceticketUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D18732F9E9C6C5DB876A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E40E3FD8C3E34FA11ACC3267 /* Pods-Placeticket.debug.xcconfig */,
+				8C06594DFB5713763C9DC7E3 /* Pods-Placeticket.release.xcconfig */,
+				F713D8F66558ABB527E2D7C3 /* Pods-PlaceticketTests.debug.xcconfig */,
+				E3D96FA2366F2F5A4703FEBF /* Pods-PlaceticketTests.release.xcconfig */,
+				9014F09C35D0E3BBBB732760 /* Pods-PlaceticketUITests.debug.xcconfig */,
+				2769682AB59E130B7DAB085E /* Pods-PlaceticketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A5435F62041F20400922B53 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				6A5436162041F20400922B53 /* PlaceticketTests */,
 				6A5436212041F20500922B53 /* PlaceticketUITests */,
 				6A5436002041F20400922B53 /* Products */,
+				17D18732F9E9C6C5DB876A06 /* Pods */,
+				A6C020CB8A094054E739246C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = PlaceticketUITests;
 			sourceTree = "<group>";
 		};
+		A6C020CB8A094054E739246C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4495E33563130C42873DE1 /* Pods_Placeticket.framework */,
+				D1CCE56CF0B898156EFB56AA /* Pods_PlaceticketTests.framework */,
+				A129427D80CA1A8AE4F5CEE5 /* Pods_PlaceticketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A5436272041F20500922B53 /* Build configuration list for PBXNativeTarget "Placeticket" */;
 			buildPhases = (
+				AF948D65AB7C8B38FE945169 /* [CP] Check Pods Manifest.lock */,
 				6A5435FB2041F20400922B53 /* Sources */,
 				6A5435FC2041F20400922B53 /* Frameworks */,
 				6A5435FD2041F20400922B53 /* Resources */,
+				DF6BB8C6409DCF8C54810164 /* [CP] Embed Pods Frameworks */,
+				46A8DD72EF0CFF34975FE524 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A54362A2041F20500922B53 /* Build configuration list for PBXNativeTarget "PlaceticketTests" */;
 			buildPhases = (
+				B7CEA2A59B1A2BD39BFCF265 /* [CP] Check Pods Manifest.lock */,
 				6A54360F2041F20400922B53 /* Sources */,
 				6A5436102041F20400922B53 /* Frameworks */,
 				6A5436112041F20400922B53 /* Resources */,
+				C5EFE480DD306E51C21B1E97 /* [CP] Embed Pods Frameworks */,
+				FD65065473A76C22920DF858 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A54362D2041F20500922B53 /* Build configuration list for PBXNativeTarget "PlaceticketUITests" */;
 			buildPhases = (
+				C804C31F30002302A7177AAB /* [CP] Check Pods Manifest.lock */,
 				6A54361A2041F20500922B53 /* Sources */,
 				6A54361B2041F20500922B53 /* Frameworks */,
 				6A54361C2041F20500922B53 /* Resources */,
+				4798ADB9D7C999C7603D850F /* [CP] Embed Pods Frameworks */,
+				3EB9BE0BB5A39477DBA55D07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EB9BE0BB5A39477DBA55D07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaceticketUITests/Pods-PlaceticketUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A8DD72EF0CFF34975FE524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Placeticket/Pods-Placeticket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4798ADB9D7C999C7603D850F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaceticketUITests/Pods-PlaceticketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF948D65AB7C8B38FE945169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Placeticket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7CEA2A59B1A2BD39BFCF265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlaceticketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EFE480DD306E51C21B1E97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaceticketTests/Pods-PlaceticketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C804C31F30002302A7177AAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlaceticketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6BB8C6409DCF8C54810164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Placeticket/Pods-Placeticket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Placeticket/Pods-Placeticket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD65065473A76C22920DF858 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaceticketTests/Pods-PlaceticketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A5435FB2041F20400922B53 /* Sources */ = {
@@ -424,6 +625,7 @@
 		};
 		6A5436282041F20500922B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40E3FD8C3E34FA11ACC3267 /* Pods-Placeticket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +641,7 @@
 		};
 		6A5436292041F20500922B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C06594DFB5713763C9DC7E3 /* Pods-Placeticket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +657,7 @@
 		};
 		6A54362B2041F20500922B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F713D8F66558ABB527E2D7C3 /* Pods-PlaceticketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +675,7 @@
 		};
 		6A54362C2041F20500922B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D96FA2366F2F5A4703FEBF /* Pods-PlaceticketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +693,7 @@
 		};
 		6A54362E2041F20500922B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9014F09C35D0E3BBBB732760 /* Pods-PlaceticketUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +710,7 @@
 		};
 		6A54362F2041F20500922B53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2769682AB59E130B7DAB085E /* Pods-PlaceticketUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
